@@ -1,0 +1,16 @@
+# Secrets and local runtime files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Build outputs and local tools
+**/target/
+**/node_modules/
+**/build/
+*.log
+.DS_Store
+.idea/
+.vscode/
